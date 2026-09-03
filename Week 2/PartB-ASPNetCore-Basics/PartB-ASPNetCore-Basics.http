@@ -1,0 +1,6 @@
+@PartB_ASPNetCore_Basics_HostAddress = http://localhost:5150
+
+GET {{PartB_ASPNetCore_Basics_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

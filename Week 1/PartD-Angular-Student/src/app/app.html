@@ -1,0 +1,84 @@
+<div class="container">
+
+  <h1>AI Software Development Internship</h1>
+
+  <h2>Student Information</h2>
+
+  <p>
+    <strong>Name:</strong>
+    Eman Fatima Janjua
+  </p>
+
+  <p>
+    <strong>Internship Title:</strong>
+    AI Software Development Internship
+  </p>
+
+  <h2>Student List</h2>
+
+  <table>
+
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Department</th>
+        <th>Marks</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      @for (student of students; track student.id) {
+
+        <tr>
+          <td>{{ student.id }}</td>
+          <td>{{ student.name }}</td>
+          <td>{{ student.department }}</td>
+          <td>{{ student.marks }}</td>
+
+          <td>
+            <button (click)="selectStudent(student)">
+              Select
+            </button>
+          </td>
+        </tr>
+
+      }
+
+    </tbody>
+
+  </table>
+
+  @if (selectedStudent) {
+
+    <div class="details">
+
+      <h2>Selected Student</h2>
+
+      <p>
+        <strong>ID:</strong>
+        {{ selectedStudent.id }}
+      </p>
+
+      <p>
+        <strong>Name:</strong>
+        {{ selectedStudent.name }}
+      </p>
+
+      <p>
+        <strong>Department:</strong>
+        {{ selectedStudent.department }}
+      </p>
+
+      <p>
+        <strong>Marks:</strong>
+        {{ selectedStudent.marks }}
+      </p>
+
+    </div>
+
+  }
+
+</div>

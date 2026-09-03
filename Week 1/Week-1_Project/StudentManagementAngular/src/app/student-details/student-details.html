@@ -1,0 +1,36 @@
+<div class="details">
+
+  <h2>Student Details</h2>
+
+  @if (student) {
+
+    <p>
+      <strong>ID:</strong>
+      {{ student.id }}
+    </p>
+
+    <p>
+      <strong>Name:</strong>
+      {{ student.name }}
+    </p>
+
+    <p>
+      <strong>Department:</strong>
+      {{ student.department }}
+    </p>
+
+    <p>
+      <strong>Marks:</strong>
+      {{ student.marks }}
+    </p>
+
+  }
+  @else {
+
+    <p>
+      Select a student to view details.
+    </p>
+
+  }
+
+</div>

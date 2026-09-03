@@ -1,0 +1,29 @@
+<h2>Student List</h2>
+
+<table>
+
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Department</th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+    @for (student of students; track student.id) {
+
+      <tr>
+        <td>{{ student.id }}</td>
+        <td>{{ student.name }}</td>
+        <td>{{ student.email }}</td>
+        <td>{{ student.department }}</td>
+      </tr>
+
+    }
+
+  </tbody>
+
+</table>

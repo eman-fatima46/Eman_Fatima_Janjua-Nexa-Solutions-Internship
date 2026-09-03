@@ -1,0 +1,122 @@
+<h2>Student Registration</h2>
+
+<form
+  [formGroup]="registrationForm"
+  (ngSubmit)="onSubmit()">
+
+  <div>
+
+    <label for="name">
+      Name
+    </label>
+
+    <input
+      id="name"
+      type="text"
+      formControlName="name">
+
+    @if (
+      registrationForm.controls.name.touched &&
+      registrationForm.controls.name.invalid
+    ) {
+
+      <p class="error">
+
+        @if (
+          registrationForm.controls.name.errors?.['required']
+        ) {
+          Name is required.
+        }
+
+        @if (
+          registrationForm.controls.name.errors?.['minlength']
+        ) {
+          Name must contain at least 3 characters.
+        }
+
+      </p>
+
+    }
+
+  </div>
+
+
+  <div>
+
+    <label for="email">
+      Email
+    </label>
+
+    <input
+      id="email"
+      type="email"
+      formControlName="email">
+
+    @if (
+      registrationForm.controls.email.touched &&
+      registrationForm.controls.email.invalid
+    ) {
+
+      <p class="error">
+
+        @if (
+          registrationForm.controls.email.errors?.['required']
+        ) {
+          Email is required.
+        }
+
+        @if (
+          registrationForm.controls.email.errors?.['email']
+        ) {
+          Please enter a valid email address.
+        }
+
+      </p>
+
+    }
+
+  </div>
+
+
+  <div>
+
+    <label for="password">
+      Password
+    </label>
+
+    <input
+      id="password"
+      type="password"
+      formControlName="password">
+
+    @if (
+      registrationForm.controls.password.touched &&
+      registrationForm.controls.password.invalid
+    ) {
+
+      <p class="error">
+
+        @if (
+          registrationForm.controls.password.errors?.['required']
+        ) {
+          Password is required.
+        }
+
+        @if (
+          registrationForm.controls.password.errors?.['minlength']
+        ) {
+          Password must contain at least 6 characters.
+        }
+
+      </p>
+
+    }
+
+  </div>
+
+
+  <button type="submit">
+    Register
+  </button>
+
+</form>

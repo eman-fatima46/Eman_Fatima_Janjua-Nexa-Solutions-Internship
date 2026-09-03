@@ -1,0 +1,128 @@
+<h2>
+
+  @if (isEditMode) {
+    Edit Book
+  }
+  @else {
+    Add Book
+  }
+
+</h2>
+
+<form
+  [formGroup]="bookForm"
+  (ngSubmit)="onSubmit()">
+
+
+  <div>
+
+    <label for="id">
+      Book ID
+    </label>
+
+    <input
+      id="id"
+      type="number"
+      formControlName="id">
+
+    @if (
+      bookForm.controls.id.touched &&
+      bookForm.controls.id.invalid
+    ) {
+
+      <p class="error">
+        Valid Book ID is required.
+      </p>
+
+    }
+
+  </div>
+
+
+  <div>
+
+    <label for="title">
+      Title
+    </label>
+
+    <input
+      id="title"
+      type="text"
+      formControlName="title">
+
+    @if (
+      bookForm.controls.title.touched &&
+      bookForm.controls.title.invalid
+    ) {
+
+      <p class="error">
+        Title is required.
+      </p>
+
+    }
+
+  </div>
+
+
+  <div>
+
+    <label for="author">
+      Author
+    </label>
+
+    <input
+      id="author"
+      type="text"
+      formControlName="author">
+
+    @if (
+      bookForm.controls.author.touched &&
+      bookForm.controls.author.invalid
+    ) {
+
+      <p class="error">
+        Author is required.
+      </p>
+
+    }
+
+  </div>
+
+
+  <div>
+
+    <label for="category">
+      Category
+    </label>
+
+    <input
+      id="category"
+      type="text"
+      formControlName="category">
+
+    @if (
+      bookForm.controls.category.touched &&
+      bookForm.controls.category.invalid
+    ) {
+
+      <p class="error">
+        Category is required.
+      </p>
+
+    }
+
+  </div>
+
+
+  <button type="submit">
+
+    @if (isEditMode) {
+      Update Book
+    }
+    @else {
+      Add Book
+    }
+
+  </button>
+
+</form>

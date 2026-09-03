@@ -1,0 +1,66 @@
+<div class="student-list">
+
+  <h2>Student List</h2>
+
+  <label for="search">
+    Search Student:
+  </label>
+
+  <input
+    id="search"
+    type="text"
+    placeholder="Search by name or department"
+    [value]="searchText"
+    (input)="updateSearch($event)"
+  >
+
+  <table>
+
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Department</th>
+        <th>Marks</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      @for (student of filteredStudents; track student.id) {
+
+        <tr>
+
+          <td>{{ student.id }}</td>
+
+          <td>{{ student.name }}</td>
+
+          <td>{{ student.department }}</td>
+
+          <td>{{ student.marks }}</td>
+
+          <td>
+            <button
+              (click)="selectStudent(student)">
+              View Details
+            </button>
+          </td>
+
+        </tr>
+
+      }
+
+    </tbody>
+
+  </table>
+
+  @if (filteredStudents.length === 0) {
+
+    <p>
+      No students found.
+    </p>
+
+  }
+
+</div>

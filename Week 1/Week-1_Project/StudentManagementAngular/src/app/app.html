@@ -1,0 +1,18 @@
+<div class="container">
+
+  <h1>Student Management System</h1>
+
+  <p>
+    Simple Angular Student Management Page
+  </p>
+
+  <app-student-list
+    [students]="students"
+    (studentSelected)="onStudentSelected($event)">
+  </app-student-list>
+
+  <app-student-details
+    [student]="selectedStudent">
+  </app-student-details>
+
+</div>

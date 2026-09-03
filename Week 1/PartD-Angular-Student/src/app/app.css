@@ -1,0 +1,33 @@
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+}
+
+button {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.details {
+  margin-top: 25px;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
