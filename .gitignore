@@ -20,8 +20,11 @@ Thumbs.db
 # Logs
 *.log
 
+# Python
 .venv/
 __pycache__/
+*.pyc
 .env
 
+# Local configuration / secrets
 appsettings.Development.json
