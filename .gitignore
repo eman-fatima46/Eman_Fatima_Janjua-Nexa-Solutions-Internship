@@ -23,3 +23,5 @@ Thumbs.db
 .venv/
 __pycache__/
 .env
+
+appsettings.Development.json
