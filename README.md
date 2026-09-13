@@ -1,6 +1,6 @@
 # AI Software Development Internship
 
-This repository contains my Week 1, Week 2, and Week 3 internship tasks and projects.
+A library management application developed during the Nexa Solutions internship.
 
 ## Week 1
 
