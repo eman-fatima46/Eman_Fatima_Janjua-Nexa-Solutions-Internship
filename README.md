@@ -1,6 +1,6 @@
 # AI Software Development Internship
 
-This repository contains my Week 1, Week 2, and Week 3 internship tasks and projects.
+A library management project demonstrating .NET, Angular, Python, and AI development.
 
 ## Week 1
 
