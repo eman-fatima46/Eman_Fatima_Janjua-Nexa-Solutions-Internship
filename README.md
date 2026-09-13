@@ -1,5 +1,6 @@
 # AI Software Development Internship
-This repository contains my Week 1, Week 2, and Week 3 internship tasks and projects.
+
+This repository contains my Week 1, Week 2, Week 3, and Week 4 internship tasks and projects.
 
 ## Week 1
 
@@ -41,6 +42,46 @@ This repository contains my Week 1, Week 2, and Week 3 internship tasks and proj
 - AI Book Summary and Genre Script
 - Week 3 Final Library Project
 
+## Week 4
+
+- JWT Authentication in ASP.NET Core
+- User Registration and Login
+- Password Hashing
+- JWT Token Generation and Validation
+- Role-Based Authorization
+- Protected Book Endpoints
+- Admin-Only Delete Authorization
+- Angular Login Page
+- Angular AuthService
+- JWT Storage in Local Storage
+- HTTP Authentication Interceptor
+- Angular Route Guards
+- Role-Based UI Controls
+- Logout Functionality
+- FastAPI Fundamentals
+- Pydantic Request Validation
+- FastAPI Health Endpoint
+- FastAPI Summarize Endpoint
+- Automatic API Documentation
+- LLM Conversation History
+- LLM Streaming
+- Temperature Comparison
+- Structured JSON Output
+- JSON Parsing and Error Handling
+- Zero-Shot Prompting
+- Few-Shot Prompting
+- Role Prompting
+- Prompt Injection Testing
+- Final Prompt Template
+- FastAPI AI Service
+- AI Book Genre and Summary Endpoint
+- Graceful LLM Error Handling
+- Git Merge Conflict Resolution
+- GitHub Branch Protection
+- Pull Request Template
+- Reviewed Pull Request Workflow
+- Week 4 Secured Library App and AI Service Project
+
 ## Technologies Used
 
 - C#
@@ -53,8 +94,12 @@ This repository contains my Week 1, Week 2, and Week 3 internship tasks and proj
 - SQL Server
 - SQL Server Management Studio
 - Entity Framework Core
+- JWT Authentication
 - Git
 - GitHub
 - Python
+- FastAPI
+- Pydantic
+- Uvicorn
 - Groq API
 - python-dotenv
