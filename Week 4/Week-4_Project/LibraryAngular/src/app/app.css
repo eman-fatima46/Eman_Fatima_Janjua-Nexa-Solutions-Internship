@@ -1,0 +1,56 @@
+:host {
+  display: block;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f7fb;
+  color: #222;
+}
+
+header {
+  background: white;
+  padding: 20px 32px;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+header h1 {
+  margin: 0 0 14px;
+  font-size: 28px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #1d4ed8;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav span {
+  margin-left: auto;
+  font-size: 14px;
+  color: #555;
+}
+
+nav button {
+  border: none;
+  padding: 9px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+main {
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
