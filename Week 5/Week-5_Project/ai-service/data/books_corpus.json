@@ -1,0 +1,26 @@
+[
+  {
+    "book_id": 3,
+    "title": "Angular JWT Test",
+    "author": "Test Author",
+    "category": "Programming",
+    "description": "",
+    "text": "Title: Angular JWT Test\nAuthor: Test Author\nCategory: Programming\nDescription: "
+  },
+  {
+    "book_id": 4,
+    "title": "Angular JWT Test",
+    "author": "Test Author",
+    "category": "Programming",
+    "description": "",
+    "text": "Title: Angular JWT Test\nAuthor: Test Author\nCategory: Programming\nDescription: "
+  },
+  {
+    "book_id": 5,
+    "title": "Angular Auth Book",
+    "author": "John Smith",
+    "category": "Programming",
+    "description": "",
+    "text": "Title: Angular Auth Book\nAuthor: John Smith\nCategory: Programming\nDescription: "
+  }
+]
