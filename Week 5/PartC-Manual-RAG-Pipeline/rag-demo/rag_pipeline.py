@@ -54,7 +54,7 @@ collection = chroma_client.create_collection(
 
 def chunk_text(
     text: str,
-    chunk_size: int = 300,
+    chunk_size: int = 0,
     overlap: int = 50
 ) -> list[str]:
 
