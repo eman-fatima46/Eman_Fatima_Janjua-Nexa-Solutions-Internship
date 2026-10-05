@@ -25,6 +25,7 @@ Thumbs.db
 __pycache__/
 *.pyc
 .env
+chroma_db/
 
 # Local configuration / secrets
 appsettings.Development.json
