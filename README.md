@@ -1,6 +1,6 @@
 # AI Software Development Internship
 
-This repository contains my Week 1, Week 2, Week 3, Week 4, and Week 5 internship tasks and projects.
+This repository contains my Week 1, Week 2, Week 3, Week 4, Week 5, and Week 6 internship tasks and projects.
 
 ## Week 1
 
@@ -220,6 +220,98 @@ This repository contains my Week 1, Week 2, Week 3, Week 4, and Week 5 internshi
 
 SQL Server → .NET API (GET /api/books) → Python corpus script → Chroma → /ask endpoint → LLM → answer + sources
 
+## Week 6
+
+- LangChain Fundamentals
+
+- LangChain Expression Language (LCEL)
+
+- Runnable Interface
+
+- RunnableSequence and Pipe Composition
+
+- RunnablePassthrough
+
+- RunnableLambda
+
+- Custom LCEL Input Guard
+
+- LangChain RAG Chain
+
+- RecursiveCharacterTextSplitter
+
+- LangChain Retriever Interface
+
+- MultiQueryRetriever
+
+- Advanced Semantic Retrieval
+
+- Retrieval Quality Comparison
+
+- Structured LLM Output
+
+- Pydantic Structured Responses
+
+- Session-Scoped Conversation Memory
+
+- RunnableWithMessageHistory
+
+- Multi-Turn AI Conversations
+
+- LangChain Tool Calling
+
+- Tool Binding
+
+- Book Availability Tool
+
+- Public Book Availability API Endpoint
+
+- Typed HttpClient Integration
+
+- IHttpClientFactory
+
+- Retry Policies
+
+- Exponential Backoff
+
+- Timeout Policies
+
+- Circuit Breaker Policies
+
+- Graceful AI Service Degradation
+
+- Server-Sent Events (SSE)
+
+- FastAPI Streaming Responses
+
+- .NET Streaming Proxy
+
+- Angular ReadableStream Integration
+
+- End-to-End AI Response Streaming
+
+- Streaming Cancellation
+
+- Interactive Git Rebase
+
+- Commit Squashing
+
+- git push --force-with-lease
+
+- Fully Wired Library AI Assistant
+
+- Week 6 Library AI Assistant Project
+
+### Week 6 Project Data Flow
+
+Angular Chat UI → .NET /api/assistant/ask/stream → FastAPI /ask/stream → LangChain RAG Chain → LLM → streamed answer through .NET → Angular UI
+
+### Week 6 Known Limitations
+
+- Conversation history is stored in memory and is lost when the FastAPI service restarts.
+
+- A production application would use a persistent session store such as Redis or a database.
+
 ## Technologies Used
 
 - C#
@@ -267,3 +359,25 @@ SQL Server → .NET API (GET /api/books) → Python corpus script → Chroma →
 - NumPy
 
 - Requests
+
+- LangChain
+
+- LangChain Core
+
+- LCEL
+
+- LangChain Chroma
+
+- RecursiveCharacterTextSplitter
+
+- MultiQueryRetriever
+
+- Server-Sent Events
+
+- Browser Fetch API
+
+- ReadableStream
+
+- IHttpClientFactory
+
+- Polly
